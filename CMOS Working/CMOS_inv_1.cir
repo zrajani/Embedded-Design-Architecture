@@ -1,0 +1,33 @@
+*To study the CMOS inverter and wrkg to observe the output response for currentflow in inverter 
+
+.model mn1 nmos Vto=0.5 
+
+.model mp1 pmos Vto=-0.5 
+
+*energy to nmos and pmos 
+
+Vdd 2 0 3 
+
+Vgs 1 0 0 
+
+*mos definition 
+
+m1 3 1 0 0 mn1  
+
+m2 3 1 2 2 mp1  
+
+.dc Vgs 0 3 0.01  
+
+.control 
+
+run 
+
+reset 
+
+plot -i(Vdd) 
+
+* plot v(3) V(1) 
+
+.endc 
+
+.end 
