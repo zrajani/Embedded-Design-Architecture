@@ -21,5 +21,5 @@ S(4)<= ((NOT B(1) AND NOT B(3)) OR (B(2) AND NOT B(3)));
 S(3)<= ((NOT B(1) AND NOT B(3)) OR (B(2) AND NOT B(3)) OR (B(1) AND NOT B(2) AND B(3)) OR (NOT B(1) AND B(2)) OR B(0));
 S(2)<= (B(1) OR (NOT B(2)) OR B(3));
 S(1)<= ((NOT B(1)) OR (NOT B(2) AND NOT B(3)) OR (B(2) AND B(3))); 
-S(0)<= (B(0) or B(2) or (B(1) and B(3)) or ((not B(1)) and (not B(3))));
+S(0)<= (B(0) OR B(2) OR (B(1) AND B(3)) OR ((NOT B(1)) AND (NOT B(3))));
 end Behavioral;
