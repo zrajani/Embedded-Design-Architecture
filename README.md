@@ -4,4 +4,4 @@ Concepts of VLSI design on VHDL Code using Xilinux Software Preparing of the CMO
 In this repsoitory you will find codes on:
 
 1. Fuller Adder
-2. 
+2. 7 Segment Display
