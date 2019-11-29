@@ -5,3 +5,4 @@ In this repsoitory you will find codes on:
 
 1. Fuller Adder
 2. 7 Segment Display
+3. Turn Light Signal
