@@ -2,6 +2,11 @@
 -- Create Date:    17:30:32 10/09/2019 
 -- Design Name:    7 SEGMENT DISPLAY CODE
 -- Author Name:    Zain Rajani
+-- Code Description:
+--	      BCD Number 	A	B	C	D	E	F	G
+--		0000
+--		0001	
+--		0010
 -- Module Name:    bcd_7seg - Behavioral 
 ----------------------------------------------------------------------------------
 library IEEE;
