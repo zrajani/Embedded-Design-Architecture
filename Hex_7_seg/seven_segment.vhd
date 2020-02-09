@@ -17,6 +17,7 @@ architecture Behavioral of seven_segment is   -- DESCRIBE FUNCTIONALITY OF 7 SEG
 begin
 process (B)
 begin
+    - - case selection
     case B is
         when "0000"=> S <="0000001";  -- '0'
         when "0001"=> S <="1001111";  -- '1'
